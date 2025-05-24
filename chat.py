@@ -1,5 +1,5 @@
 import streamlit as st
-from flask import Flask, render_template, request
+from flask import Flask, request
 from flask_socketio import SocketIO, join_room, leave_room, emit
 import threading
 
